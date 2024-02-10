@@ -54,7 +54,7 @@ async function fetchRandomQuotes() {
 
 async function fetchQuotesFromQuotable() {
   const url = 'https://api.quotable.io/random';
-  const options = { method: 'GET' };
+  const options = { method: 'GET', cache: 'no-store'};
 
   try {
     const response = await fetch(url, options);
