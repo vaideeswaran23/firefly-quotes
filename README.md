@@ -39,7 +39,7 @@ This is a next js project. Node version - v20.x.x
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd firefly-quotes
 ```
 
 Install dependencies
