@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# FireFly Quotes
 
-First, run the development server:
+Random Quote Generator with multiple integration partners 
+- They Said So
+- Quotable
+- OpenAI
+- GoogleAI
+
+
+
+
+## Demo
+
+https://firefly-quotes-git-main-vaidee.vercel.app/
+
+
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file in the root folder of the cloned project
+
+`GEMINI_API_KEY="your google api key"`
+
+`OPENAI_API_KEY="your openai api key"`
+
+`THEY_SAID_SO_API_KEY="your they said so api key"`
+
+
+## Run Locally
+
+This is a next js project. Node version - v20.x.x
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/vaideeswaran23/firefly-quotes.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  cd my-project
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Navigate to app/page.js. In the QuotesPage function you can change the source from where you pull the quote.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Authors
+
+- [@vaideeswaran23](https://github.com/vaideeswaran23)
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at vaideeswaran.c23@gmail.com
+
